@@ -440,7 +440,3 @@ https://www.youtube.com/results?search_query=irwin+tech
 ||monitor.distill.io^
 ||accounts.distill.io^
 ||forums.distill.io^
-
-! Test to see if its working
-||example.com^
-||example.org^

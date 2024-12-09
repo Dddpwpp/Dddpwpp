@@ -1,0 +1,446 @@
+! blocklist for the DNS
+
+! Securly
+||securly.com^
+||www.securly.com^
+||tabpilot.com^
+||uswest-www-alb-1430906465.us-west-1.elb.amazonaws.com^
+||smartpac-shutdown.securly.com^
+||api.securly.com^
+||reports.securly.com^
+||audit.securly.com^
+||chrome.securly.com^
+||filter.securly.com^
+||log.securly.com^
+||students.securly.com^
+||home.securly.com^
+||parent.securly.com^
+||policy.securly.com^
+||guardian.securly.com^
+||check.securly.com^
+
+! GoGuardian
+/goguardian/
+||ext.goguardian.com^
+||goguardian.com^
+||mobileguardian.com^
+||teacher.goguardian.com^
+||status.goguardian.com^
+||analytics.goguardian.com^
+||insights.goguardian.com^
+||logs.goguardian.com^
+||guardian.goguardian.com^
+||monitor.goguardian.com^
+||gatekeeper.goguardian.com^
+||pusher.com^
+||laptoplookout.com^
+||kinesis.us-west-2.amazonaws.com^
+||hosted-extensions.s3.us-west-2.amazonaws.com^
+||x3-report-uploads.s3.us-west-2.amazonaws.com^
+||beacon-report-uploads-prod.s3.us-west-2.amazonaws.com^
+||com-default.ws^
+*testing-v4.metric.gstatic.com^
+||tools.google.com^
+||dl.google.com^
+||student-pltw.kiteaai.org^$important,dnsrewrite=duckduckgo.com
+||clients2.google.com^
+||ep.learnplatform.com^
+||policies.google.com^
+||chromereporting-pa.googleapis.com^
+||storage.googleapis.com^
+||relay-production-sockets-alb-1210277364.us-west-2.elb.amazonaws.com^
+||apisanta.com^
+
+! Gopher Buddy
+||amplifiedit.com^
+||gopher-buddy-prod.appspot.com^
+
+! Lightspeed Systems
+||lightspeedsystems.com^
+||relay.lightspeedsystems.com^
+||analytics.lightspeedsystems.com^
+||webfilter.lightspeedsystems.com^
+||admin.lightspeedsystems.com^
+||classroom.lightspeedsystems.com^
+||agent.lightspeedsystems.com^
+||alert.lightspeedsystems.com^
+||s3-website.us-west-2.amazonaws.com^
+||lsrelay-config-production.s3.amazonaws^
+||lsrelay-extensions-production.s3.amazonaws.com^$important,dnsrewrite=ibussy.co
+||b16rt683ll.execute-api.us-west-2.amazonaws.com^
+||p7nvu5it0k.execute-api.us-west-2.amazonaws.com^
+||sqs.us-west-2.amazonaws.com^
+||relay-ext.lightspeedsystems.com^
+||chrome-relay.lightspeedsystems.com^
+||filter.lightspeedsystems.com^
+||lightspeed-apps.s3.amazonaws.com^
+||us-west-2.elb.amazonaws.com^
+||lsmdm.com^
+||lsaccess.me^
+||lsaccess.com^
+||lsurl.me^
+||firehose.us-west-2.amazonaws.com^
+||lightspeed-realtime.ably.io^
+||a-fallback-lightspeed.ably.io^
+||b-fallback-lightspeed.ably.io^
+||c-fallback-lightspeed.ably.io^
+||realtime.ably.io^
+||lsclassroom.com^
+||relay.school^
+||lsfilter.com^
+||global.stun.twillo.com^
+||global.turn.twillo.com^
+||apiproxy-website-nlb-prod-3-ac110f6ae472b85a.elb.eu-west-1.amazonaws.com^
+||lsrelayaccess.com^
+||devices.lsmdm.com^
+
+! Linewize/FamilyZone
+||familyzone.io^
+||linewize.io^
+||linewize.com^
+||analytics.linewize.net^
+||admin.linewize.com^
+||filters.linewize.net^
+||monitor.linewize.com^
+||limewize.net^
+||linewize.net^
+||classwize.net^
+||us.linewize.com^
+||familyzone.com^
+
+! Blocksi
+||blocksi.net^
+||block.si^
+||blocksi.net^
+||blocksi-api.net^
+||chrome.blocksi.net^
+
+! Fortinet
+||forticlient.com^
+||filter.fortinet.net^
+||webfilter.fortinet.com^
+||dash.blocksi.net^
+||app.blocksi.net^
+||update.blocksi.net^
+
+! Hapara
+||hapara.com^
+||teacherdashboard.com^
+||mystudentdashboard.com^
+||pusherapp.com^
+||pusher.com^
+||teacher-db.appspot.com^
+||haparaview.appspot.com^
+||portal.hapara.com^
+||focus-api.hapara.com^
+||insights.hapara.com^
+||td-admin.appspot.com^
+||td-setup.appspot.com^
+||bomgar.com^
+
+! LanSchool
+||lanschool.com^
+||lanschoolair\lenovo.\.com^
+||lanlogon.com^
+||logon.lanschool.com^
+||lanschoolcloud.com^
+||cloud.lanschool.com^
+||dashboard.lanschool.com^
+||app.lanschoolcloud.com^
+||lenovosoftware.com^
+
+! Zscaler
+||zscalerone.net^
+||zscaler.com^
+||zscalertwo.net^
+||admin.zscaler.com^
+||gateway.zscaler.net^
+||updates.zscaler.net^
+||zscaler.net^
+
+! Qustodio
+||qustodio.com^
+||family.qustodio.com^
+||kids.qustodio.com^
+
+! DyKnow
+||dyknow.com^
+||dyknow.me^
+||dyknowcloud.com^
+
+! Netsweeper
+||netsweeper.com^
+
+! Edmodo
+||track.edmodo.com^
+||stats.edmodo.com^
+
+! Hexnode
+||hexnode.com^
+||api.hexnode.com^
+
+! Meraki
+||meraki.com^
+||manager.meraki.com^
+
+! Sophos
+||mobile.sophos.com^
+||mdm.sophos.com^
+
+! AirWatch
+||air-watch.com^
+||mdm.air-watch.com^
+
+! Faronics
+||faronics.com^
+||insight.faronics.com^
+
+! ScreenConnect
+||connectwise.com^
+||screenconnect.com^
+
+! Bomgar
+||api.bomgar.com^
+||bomgar.com^
+||support.bomgar.com^
+
+! RemotePC
+||remotepc.com^
+||tracker.remotepc.com^
+
+!  AnyDesk
+||anydesk.com^
+||tracker.anydesk.com^
+
+! Veyon
+||veyon.io^
+
+! OpenDNS/SafeDNS/Cisco/Umbrella
+||www.opendns.com^
+||resolver1.opendns.com^
+||safedns.com^
+||api.safedns.com^
+||s.tunnels.ironport.com^
+||crl3.digicert.com^
+||crl4.digicert.com^
+||ocsp.digicert.com
+||umbrella.cisco.com^
+
+! Iboss
+||iboss.com^
+||ibosscloud.com^
+||iboss.si^
+||ibossconnect.com^
+||admin.ibosscloud.com^
+||update.ibosscloud.com^
+||status.ibosscloud.com^
+
+! Smoothwall
+||monitor.smoothwall.com^
+||update.smoothwall.com^
+||cloud.smoothwall.com^
+||webfilter.smoothwall.com^
+
+! Net Reef
+||net-ref.com^
+
+! Apple
+||school.apple.com^
+||applemdm.com^
+
+! Microsoft
+||intune.education.microsoft.com^
+||mdm.microsoft.com^
+
+! Bark
+||bark.us^
+||barkforschools.com^
+||bark.app^
+
+! ContentKeeper
+||ckauthenticator.com^
+||contentkeeper.com^
+||contentkeeper.net^
+||proxy.contentkeeper.com^
+||cloud.contentkeeper.com^
+||auth.contentkeeper.net^
+||dashboard.contentkeeper.com^
+||reporting.contentkeeper.net^
+
+! Palo Alto
+||paloaltonetworks.com^
+
+! LFGL
+||lgfl.net^
+||safehomeschool.net^
+
+! NetSupport
+||netsupportschool.com^
+||support.netsupportschool.com^
+
+! Senso Cloud
+||senso.cloud^
+
+! General
+||learnplatform.com^
+||kiddoware.com^
+
+! All AWS servers
+||ec2-3-208-203-229.compute-1.amazonaws.com^
+||ec2-54-197-189-131.compute-1.amazonaws.com^
+||ec2-23-21-246-79.compute-1.amazonaws.com^
+||ec2-3-222-46-47.compute-1.amazonaws.com^
+||ec2-18-204-74-215.compute-1.amazonaws.com^
+||dualstack.titleall-1498646681.us-east-1.elb.amazonaws.com^
+||ec2-52-1-172-112.compute-1.amazonaws.com^
+||ec2-52-20-75-81.compute-1.amazonaws.com^
+||awseb-e-v-awsebloa-1ioafv91ffxq7-1038271640.us-east-1.elb.amazonaws.com^
+||eps-dev-ecs-alb-1196863871.us-east-1.elb.amazonaws.com^
+||test.us-east-1.verify-delete-ser.oinse1rw.beta.forgeinternaldnsapps.ec2.aws.dev^
+||c84963acd44ea608bb56c3adb27f6cdb-255793865.us-east-1.elb.amazonaws.com^
+||ec2-35-170-206-52.compute-1.amazonaws.com^
+||ec2-44-208-249-49.compute-1.amazonaws.com^
+||ec2-44-208-199-202.compute-1.amazonaws.com^
+||ec2-34-226-146-13.compute-1.amazonaws.com^
+||agent-slb-49887559.us-east-1.elb.amazonaws.com^
+
+! AWS Domains
+||ec2-3-228-43-67.compute-1.amazonaws.com^
+||ec2-34-235-233-121.compute-1.amazonaws.com^
+||ec2-184-72-248-117.compute-1.amazonaws.com^
+||ec2-18-215-40-71.compute-1.amazonaws.com^
+||26e2b11da9cebfcf5142d1722747f1d5.gr7.us-east-1.eks.amazonaws.com^
+||ec2-52-21-69-105.compute-1.amazonaws.com^
+||fd7977b2009a0fb0d1f57ba88ce180de.gr7.us-east-1.eks.amazonaws.com^
+
+! Deledao
+||deledao.com^
+
+! InterClass
+||interclass.com^
+||interclassfilter.com
+
+! InterSafe GatewayConnection Agent
+||intersafe-web.com^
+||i-filter.jp^
+
+! Impero Backdrop
+||imperosoftware.com^
+||imperobackdrop.com^
+
+! DLD
+||dldschool.org^
+
+! jamfcloud
+||sentry.pub.jamf.build^
+||jamfcloud.com^
+||jamf.com^
+||api.jamfcloud.com^
+||status.jamfcloud.com^
+||update.jamfcloud.com^
+||launchdarkly.com^
+
+! Gabb
+||gabb.com^
+||gabbcloud.com^
+||gabbwireless.com^
+||gabbphone.com^
+
+! Irwin
+/irwintech/
+||www.youtube.com/@IrwinTech^
+||youtube.com/@IrwinTech^
+https://www.youtube.com/results?search_query=irwin+tech
+
+! SmartLock
+||smartlock.google.com^
+||chrome.google.com^
+||security.google.com^
+||locksettings.google.com^
+||api.smartlock.google.com^
+
+! Impero Education Pro
+||imperosoftware.com^
+||api.imperosoftware.com^
+||dashboard.imperosoftware.com^
+||sync.imperosoftware.com^
+
+! Netop Vision
+||netop.com^
+||vision.netop.com^
+||classroom.netop.com^
+||support.netop.com^
+
+! SonicWall
+||sonicwall.com^
+||captureclient.sonicwall.com^
+||cloud.sonicwall.com^
+||endpoint.sonicwall.com^
+
+! Gaggle
+||gaggle.net^
+||api.gaggle.net^
+||secure.gaggle.net^
+||portal.gaggle.net^
+||alerts.gaggle.net^
+||analytics.gaggle.net^
+||api-v2.gaggle.net^
+
+! Proctorio
+||proctoru.com^
+||api.proctoru.com^
+||live.proctoru.com^
+||proctorio.com^
+||cdn.proctorio.com^
+||extension.proctorio.com^
+||analytics.proctorio.com^
+
+! Honorlock
+||honorlock.com^
+||api.honorlock.com^
+||cdn.honorlock.com^
+||extension.honorlock.com^
+
+! Examity
+||examity.com^
+||api.examity.com^
+||proctor.examity.com^
+||dashboard.examity.com^
+
+! ExamSoft
+||examsoft.com^
+||api.examsoft.com^
+||update.examsoft.com^
+
+! NetScout
+||netscout.com^
+||api.netscout.com^
+||cloud.netscout.com^
+
+! SolarWinds
+||solarwinds.com^
+||updates.solarwinds.com^
+||status.solarwinds.com^
+
+! GlassWire
+||glasswire.com^
+||www.glasswire.com^
+||download.glasswire.com^
+||updates.glasswire.com^
+||cdn.glasswire.com^
+||check.glasswire.com^
+||status.glasswire.com^
+||api.glasswire.com^
+
+! Distill Web Monitor
+||distill.io^
+||alerts.distill.io^
+||notifications.distill.io^
+||dashboard.distill.io^
+||monitor.distill.io^
+||accounts.distill.io^
+||forums.distill.io^
+
+! Test to see if its working
+||example.com^
+||example.org^

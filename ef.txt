@@ -1,6 +1,2 @@
 ||get1.mywiseghost.com^
-##.ezoic-ad
-###ad_position_box
-##.img_ad
-anytexteditor.com##.ads
 ||405.secureshellhub.com^

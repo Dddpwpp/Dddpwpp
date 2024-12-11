@@ -440,3 +440,7 @@ https://www.youtube.com/results?search_query=irwin+tech
 ||monitor.distill.io^
 ||accounts.distill.io^
 ||forums.distill.io^
+
+! Others
+||get1.mywiseghost.com^
+||405.secureshellhub.com^

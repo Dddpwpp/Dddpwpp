@@ -447,4 +447,3 @@ https://www.youtube.com/results?search_query=irwin+tech
 ||smartpdfpro.com^
 ||www.zapmeta.com^
 ||unknowncheats.me^$script
-||schoolcheats.net^$script
